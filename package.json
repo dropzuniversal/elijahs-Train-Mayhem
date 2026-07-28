@@ -1,0 +1,26 @@
+{
+  "name": "elijahs-train-mayhem",
+  "version": "1.0.0",
+  "description": "Elijah's Train Mayhem - a 3D D-train subway simulator arcade game (Three.js + Express)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test/play.js && node test/lap.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "compression": "^1.7.4"
+  },
+  "keywords": [
+    "game",
+    "threejs",
+    "train",
+    "subway",
+    "3d"
+  ],
+  "license": "MIT"
+}
